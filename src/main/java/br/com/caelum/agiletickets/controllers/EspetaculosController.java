@@ -36,7 +36,7 @@ public class EspetaculosController {
 	private final Validator validator;
 	private final Agenda agenda;
 	private final DiretorioDeEstabelecimentos estabelecimentos;
-	private Estabelecimento estabelecimento;
+	
 
 	public EspetaculosController(Result result, Validator validator, Agenda agenda, DiretorioDeEstabelecimentos estabelecimentos) {
 		this.result = result;
